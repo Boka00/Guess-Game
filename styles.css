@@ -7,9 +7,10 @@
 body {
   background-color: #222222;
   color: #eeeeee;
+  overflow: hidden;
 }
 header {
-  height: 420px;
+  height: 380px;
 }
 .btn {
   margin: 18px;
@@ -49,7 +50,7 @@ header {
 
 main {
   width: 1200px;
-  height: 780px;
+  height: 580px;
   margin: 0 auto;
 }
 .main-container {
