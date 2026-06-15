@@ -1,7 +1,7 @@
 # Guess My Number 🎯
 
 A simple number guessing game built with HTML, CSS, and JavaScript.
-
+## Link 🔗 https://boka00.github.io/Guess-Game/
 ## How to Play
 
 1. The game generates a secret number between **1 and 20**.
