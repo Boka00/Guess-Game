@@ -37,6 +37,10 @@ Guess-Game/
 ├── styles.css
 └── script.js
 ```
+## Screenshot
+
+<img width="1919" height="913" alt="image" src="https://github.com/user-attachments/assets/ab7527cf-963b-41f7-85ec-cd5765220007" />
+
 
 ## Author
 
