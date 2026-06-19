@@ -30,6 +30,8 @@ checkBtn.addEventListener("click", () => {
   let guess = Number(input.value);
   if (!input.value) {
     message.textContent = "⛔ No number!";
+  } else if (guess < 1 || guess > 20) {
+    message.textContent = "🚫 Number out of range!";
   } else if (guess < randomNum) {
     message.textContent = "📉 Too low!";
     score--;
@@ -63,4 +65,10 @@ againBtn.addEventListener("click", () => {
   input.value = "";
   markBox.style.width = "180px";
   enableGame();
+});
+
+input.addEventListener("input", () => {
+  if (input.value.length > 2) {
+    input.value = input.value.slice(0, 2);
+  }
 });
