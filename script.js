@@ -63,5 +63,4 @@ againBtn.addEventListener("click", () => {
   input.value = "";
   markBox.style.width = "180px";
   enableGame();
-  console.log(randomNum);
 });
