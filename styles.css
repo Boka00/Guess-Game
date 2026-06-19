@@ -91,10 +91,10 @@ button {
   margin-bottom: 50px;
 }
 
-button:hover {
+button.active:hover {
   background-color: #4a4a4a;
   color: #eeeeee;
 }
-button:active {
+button.active:active {
   transform: scale(0.9);
 }

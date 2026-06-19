@@ -13,10 +13,12 @@ let highScore = 0;
 function disableGame() {
   checkBtn.disabled = true;
   input.disabled = true;
+  checkBtn.classList.remove("active");
 }
 function enableGame() {
   checkBtn.disabled = false;
   input.disabled = false;
+  checkBtn.classList.add("active");
 }
 function updateHighScore() {
   if (score > highScore) {
