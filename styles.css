@@ -90,3 +90,11 @@ button {
 .guess {
   margin-bottom: 50px;
 }
+
+button:hover {
+  background-color: #4a4a4a;
+  color: #eeeeee;
+}
+button:active {
+  transform: scale(0.9);
+}
